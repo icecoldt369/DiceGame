@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@600&family=Poppins:wght@400;500;600;900&family=Roboto+Mono:wght@600&family=Tilt+Warp&display=swap');
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+    margin: 0.625em;
+}
+
+body {
+    background-color: #daccb0;
+    margin: 0;
+}
+
+/* #playButton,
+#rollDice {
+    display: none;
+} */
+
+h1 {
+    margin: 2em;
+    font-family: 'impact';
+    font-size: 3.5rem;
+    color: #005035;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: #02125a;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding-top: 30px;
+}
+
+.butn {
+    background: #aa8177;
+    font-family: 'Patua One';
+    border-radius: 438em;
+    color: #ffff;
+    font-size: 1.25em;
+    padding: 1em 1.563em 1em 1.563em;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #232931;
+    text-decoration: none;
+}
+
+.butn #playButton {
+    background: #aa8177;
+    font-family: 'Patua One';
+    border-radius: 0.438em;
+    color: #ffff;
+    font-size: 1.25em;
+    padding: 1em 1.563em 1em 1.563em;
+}
+
+#m1 {
+    margin: 1em;
+}
+
+/* Aspect Ratio  */
+
+@media only screen and (min-width: 376px) and (max-width: 812px) {
+.container {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .dice {
+        text-align: center;
+        display: inline-block;
+        margin: 0.625em;
+    }
+
+    body {
+        background-color: #daccb0;
+        margin: 0;
+    }
+
+    /* #playButton,
+#rollDice {
+    display: none;
+} */
+
+    h1 {
+        margin: 2em;
+        font-family: 'impact';
+        font-size: 3.5rem;
+        color: #005035;
+        text-align: center;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #02125a;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .bottom {
+        padding-top: 30px;
+    }
+
+    .butn {
+        background: #aa8177;
+        font-family: 'Patua One';
+        border-radius: 438em;
+        color: #ffff;
+        font-size: 1.25em;
+        padding: 1em 1.563em 1em 1.563em;
+        text-decoration: none;
+    }
+
+    .butn:hover {
+        background: #232931;
+        text-decoration: none;
+    }
+
+    .butn #playButton {
+        background: #aa8177;
+        font-family: 'Patua One';
+        border-radius: 0.438em;
+        color: #ffff;
+        font-size: 1.25em;
+        padding: 1em 1.563em 1em 1.563em;
+    }
+
+    #m1 {
+        margin: 1em;
+    }
+}

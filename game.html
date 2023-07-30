@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+</html>
+
+<body>
+    <section class="container">
+        <h1>Dice Game</h1>
+    </section>
+    <section class="container bottom">
+        <input id="answer" type="number" placeholder="Enter a Number">
+    </section>
+    <section class="container bottom">
+        <button type="button" class="butn" id="start" onClick="startGame()">
+            Roll the Dice
+        </button>
+        <button type="button" class="butn" id="playButton" onClick="setupGame()">
+            Continue Rolling
+        </button>
+    </section>
+    <section class="container bottom">
+        <button type="button" class="butn" onClick="displayResult()">
+            End of Game
+        </button>
+    </section>
+    <section class="container bottom">
+        <p id="m1"></p>
+    </section>
+    <script src="game.js"></script>
+</body>
